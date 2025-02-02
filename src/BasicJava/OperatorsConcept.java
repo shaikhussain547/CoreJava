@@ -8,31 +8,31 @@ public class OperatorsConcept {
 		//There are various operators that can be used for different purposes.
 		
 		//1. Arithmetic Operators : { +, -, *, /, %(Modulus) }
-				//Arithmetic operators are used to perform basic mathematical operations like addition, subtraction, multiplication and division. 
+		//Arithmetic operators are used to perform basic mathematical operations like addition, subtraction, multiplication and division. 
 		System.out.println(10/3); // 3
 		System.out.println(10%3); // 1
 		
 		//2. Unary Operator : { ++, --, ! }
-				//Unary operators act upon only one operand and perform operations such as increment, decrement, 
-				//negating an expression or inverting a boolean value.
+		//Unary operators act upon only one operand and perform operations such as increment, decrement, 
+		//negating an expression or inverting a boolean value.
 		
 		//3. Relational Operators : { ==, !=, >, <, >=, <= }
-				//Relational operators are used to compare two values. The result of all the relational operations is either true or false. 
+		//Relational operators are used to compare two values. The result of all the relational operations is either true or false. 
 		
 		//4. Logical Operators : &&, ||, !
-				//Logical operators are used to combine two or more relational expressions or to negate the result of a relational expression. 
+		//Logical operators are used to combine two or more relational expressions or to negate the result of a relational expression. 
 		
 		//5. Assignment Operators : =, +=, -=, *=, /=, %=
-				//Assignment operator is used to assign the value on the right hand side to the variable on the left hand side of the operator.
+		//Assignment operator is used to assign the value on the right hand side to the variable on the left hand side of the operator.
 		
 		//6. Ternary operator is used as a single line replacement for if-then-else statements and acts upon three operands. 
-				// Syntax : <condition> ? <value if condition is true> : < value if condition is false> 
+		// Syntax : <condition> ? <value if condition is true> : < value if condition is false> 
 		int numOne = 10;
 		int numTwo = 5;
 		int min = (numOne < numTwo) ? numOne : numTwo;
 		System.out.println(min); //5
 		
-		//Operator Precedence :
+			//Operator Precedence :
 			/*		()
 			 * 		++, -- (postfix)
 			 * 		++, --, +, -, ~, ! (unary, prefix)
@@ -47,7 +47,7 @@ public class OperatorsConcept {
 			 * 		=, +=, -=, *=, <<=, >>=, >>>=
 			 */
 		
-		//++ Increment
+				//++ Increment
 				//-- Decrement
 				
 				int i = 10;

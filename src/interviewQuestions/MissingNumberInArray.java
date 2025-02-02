@@ -22,5 +22,17 @@ public class MissingNumberInArray {
 		System.out.println("Actual sum: "+asum);
 		System.out.println("Missing numebr is: "+(sum-asum));
 		
+		//2nd Method :
+		int [] nums = {1, 2,3,4,6,7};
+		int n = nums[nums.length-1];
+		int e_sum = (n*(n+1))/2;
+		int a_sum = 0;
+		for(int i=0; i < nums.length; i++) {
+			a_sum = a_sum + nums[i];
+		}
+		
+		int missingNum = e_sum - a_sum;
+		System.out.println(missingNum);
+		
 	}
 }
