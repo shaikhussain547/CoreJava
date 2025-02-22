@@ -8,8 +8,8 @@ public class GenerateRandomNums {
 		
 		//Generate random value:
 		//Provide min and max values in parameters:
-		int random = ThreadLocalRandom.current().nextInt(1, 9999);
-		
+		int random = ThreadLocalRandom.current().nextInt(10000, 99999);
+
 		System.out.println(random);
 		
 		

@@ -21,7 +21,7 @@ public class ArrayListMethods {
 //		ar1.addAll(ar2);
 		System.out.println(ar1); //[java, python, ruby, testing, dev ops, ruby]
 		
-//		ar1.addAll(2, ar2);
+		ar1.addAll(2, ar2);
 		System.out.println(ar1); //[java, python, testing, dev ops, ruby, ruby]
 		
 //		ar1.clear();

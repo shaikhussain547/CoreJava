@@ -8,9 +8,9 @@ public class Test extends Shape{
 
 	public static void main(String[] args) {
 		
-//		Shape s = new Test();
-//		s.drawing();
-//		s.fill();
+		Shape s = new Test();
+		s.drawing();
+		s.fill();
 		
 		Test test = new Test();
 		
