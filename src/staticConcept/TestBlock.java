@@ -4,7 +4,7 @@ public class TestBlock {
 
 	public static void main(String[] args) {
 		
-	//	StaticQ3 obj = new StaticQ3(); //can not able to create obj for private const class
+//		StaticQ3 obj = new StaticQ3(); //can not able to create obj for private const class
 		
 		System.out.println(StaticQ3.createObj());
 		

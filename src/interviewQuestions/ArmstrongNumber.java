@@ -32,6 +32,39 @@ public class ArmstrongNumber {
 		isArmstrongNumber(407);
 		isArmstrongNumber(123);
 		isArmstrongNumber(370);
+		isArmstrongNumber(1634);
+		System.out.println(isArmNum(1634));
+	}
+	
+	public static boolean isArmNum(int num) {
+		
+		if(num < 0) return false;
+		
+		int temp = num;
+		int numDigits = 0;
+		while(temp>0) {
+			numDigits++;
+			temp = temp/10;
+		}
+		
+		if(num == 0) {
+			numDigits=1;
+		}
+		
+		int sum=0;
+		temp = num;
+		while(temp>0) {
+			int digit = temp%10;
+			sum += Math.pow(digit, numDigits);
+			temp = temp/10;
+		}
+		if(sum == num) {
+			return true;
+		} else {
+			return false;
+		}
+		
+		
 	}
 
 }

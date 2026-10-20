@@ -20,6 +20,22 @@ public class CheckIsNumeric {
 		
 		return true;
 	}
+	
+	public static boolean isNumeric2(String cs) {
+		if(isEmpty(cs)) {
+			return false;
+		}
+		
+		int len = cs.length();
+		char[] arr = cs.toCharArray();
+		for(int i=0; i<arr.length; i++) {
+			if(! Character.isDigit(arr[i])) {
+				return false;
+			}
+		}
+		
+		return true;
+	}
 
 	public static void main(String[] args) {
 		
@@ -31,6 +47,9 @@ public class CheckIsNumeric {
 		System.out.println(isNumeric("123"));
 		System.out.println(isNumeric("test123"));
 		System.out.println(isNumeric("\u0967"));
+		System.out.println(isNumeric2("2"));
+		System.out.println(isNumeric2("123"));
+		System.out.println(isNumeric2("test123"));
 	}
 
 }
